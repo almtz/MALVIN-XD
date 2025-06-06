@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/qumhu4.jpg" />
+  <img src="https://files.catbox.moe/k0b770.jpg" />
 </p>
 
 <!-- 📊 STATS & HERO ANIMATION (Updated Colors) -->
@@ -231,7 +231,7 @@ jobs:
 
 ## 💡 Credits & Contributors
 
-> Made with ❤️ by Malvin
+> Made with ❤️ by ALMACH
 
 - 👤 [Malvin King](https://github.com/XdKing2) – Creator & Maintainer  
   - Optimized scripts, plugin management, core features
@@ -268,7 +268,7 @@ jobs:
 
 ---
 
-## 👑 MALVIN STATUS
+## 👑 ALMACH STATUS
 
 ```diff
 + Project Status: Active

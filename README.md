@@ -14,11 +14,11 @@
 
   <!-- GitHub Stats Badges with new color palette -->
   <p>
-    <img src="https://img.shields.io/github/forks/XdKing2/MALVIN-XD?style=flat&color=1E88E5&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
-    <img src="https://img.shields.io/github/followers/XdKing2?style=flat&color=43A047&logo=github&logoColor=white&label=Followers" alt="GitHub Followers" />
-    <img src="https://img.shields.io/github/last-commit/XdKing2/MALVIN-XD?style=flat&color=8E24AA&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
-    <img src="https://img.shields.io/github/repo-size/XdKing2/MALVIN-XD?style=flat&color=0097A7&logo=database&logoColor=white&label=Repo%20Size" alt="Repo Size" />
-    <img src="https://img.shields.io/github/package-json/v/XdKing2/MALVIN-XD?style=flat&color=F57C00&logo=npm&logoColor=white&label=Version" alt="Package Version" />
+    <img src="https://img.shields.io/github/forks/almtz/ALM-MD?style=flat&color=1E88E5&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
+    <img src="https://img.shields.io/github/followers/almtz?style=flat&color=43A047&logo=github&logoColor=white&label=Followers" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/last-commit/almtz/ALM-MD?style=flat&color=8E24AA&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
+    <img src="https://img.shields.io/github/repo-size/almtz/ALM-MD?style=flat&color=0097A7&logo=database&logoColor=white&label=Repo%20Size" alt="Repo Size" />
+    <img src="https://img.shields.io/github/package-json/v/almtz/ALM-MD?style=flat&color=F57C00&logo=npm&logoColor=white&label=Version" alt="Package Version" />
   </p>
 
   <!-- Hero GIF with updated border & hover effect -->
@@ -29,13 +29,13 @@
 </div>
 
 
-# MALVIN-XD Setup
+# ALM-MD Setup
 
 ### 🚀 Fork the Repository
 
 To start, fork this repository to your own GitHub account by clicking the button below:
 
-<a href="https://github.com/XdKing2/MALVIN-XD/fork"><img src="https://img.shields.io/github/forks/XdKing2/MALVIN-XD?style=for-the-badge&logo=github&color=4c1&label=Fork%20MALVIN-XD" alt="Fork MALVIN-XD" /></a>
+<a href="https://github.com/almtz/ALM-MD/fork"><img src="https://img.shields.io/github/forks/Xalmtz/ALM-MD?style=for-the-badge&logo=github&color=4c1&label=Fork%20ALM-MD" alt="Fork ALM-MD" /></a>
 
 ---
 
@@ -75,13 +75,13 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
 </p>
 
 <p align="center" style="color:#777;font-size:13px;">
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/warning.gif?raw=true" width="15" />
+  <img src="https://github.com/Xdalmtz/ALM-MD/blob/main/assets/warning.gif?raw=true" width="15" />
   <em>Having connection issues? Try using a VPN.</em>
 </p>
 
 
 <div align="center">
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
+  <img src="https://github.com/almtz/ALM-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
 </div>
 
 <h2 align="center">🚀 Deployment Options</h2>
@@ -90,12 +90,12 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
   <table cellspacing="20">
     <tr>
       <td align="center">
-        <a href="https://dashboard.heroku.com/new?template=https://github.com/XdKing2/MALVIN-XD" target="_blank">
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/almtz/ALM-MD" target="_blank">
           <img src="https://img.shields.io/badge/Deploy%20to-Heroku-7A3E9D?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
         </a>
       </td>
       <td align="center">
-        <a href="https://app.koyeb.com/services/deploy?type=git&repository=XdKing3/MALVIN-XD" target="_blank">
+        <a href="https://app.koyeb.com/services/deploy?type=git&repository=xdalmtz/ALM-MD" target="_blank">
           <img src="https://img.shields.io/badge/Deploy%20to-Koyeb-FF2D95?style=for-the-badge&logo=koyeb&logoColor=white" alt="Koyeb"/>
         </a>
       </td>
@@ -185,7 +185,7 @@ jobs:
 
 > Get the latest bot zip file for panel deployment:
 
-[![Download ZIP](https://img.shields.io/badge/Download_MALVIN--XD-FF5722?style=flat-square&logo=github&logoColor=white)](https://github.com/XdKing2/MALVIN-XD/archive/refs/heads/main.zip)
+[![Download ZIP](https://img.shields.io/badge/Download_MALVIN--XD-FF5722?style=flat-square&logo=github&logoColor=white)](https://github.com/almtz/ALM-MD/archive/refs/heads/main.zip)
 
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" width="100%" />
@@ -218,12 +218,12 @@ jobs:
 </div>
 
 > Màke sure your panel have atleast 2gb ram for now
->  am working on malvin xd to work on free panel servers
+>  am working on Alm md to work on free panel servers
 <p align="center"><img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/></p>
 
 ## ⚠️ Disclaimer
 
-- ❗ MALVIN-XD is **not affiliated with WhatsApp Inc.**
+- ❗ ALM-MD is **not affiliated with WhatsApp Inc.**
 - 🚫 Misuse can lead to bans. Use at your own risk.
 - 🛑 Cloning or modifying without proper credit is prohibited.
 
@@ -233,7 +233,7 @@ jobs:
 
 > Made with ❤️ by ALMACH
 
-- 👤 [Malvin King](https://github.com/XdKing2) – Creator & Maintainer  
+- 👤 [special alm](https://github.com/almtz) – Creator & Maintainer  
   - Optimized scripts, plugin management, core features
 
 ---
@@ -241,12 +241,12 @@ jobs:
 ## 🗃️ PROJECT ARCHITECTS
 
 <p align="center">
-  <a href="https://github.com/XdKing2">
+  <a href="https://github.com/almtz">
     <img src="https://github-readme-stats.vercel.app/api?username=XdKing2&show_icons=true&theme=radical">
   </a>
 </p>
 <div align="center">
-  <img src="https://github.com/XdKing2/MALVIN-XD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
+  <img src="https://github.com/almtz/ALM-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
 

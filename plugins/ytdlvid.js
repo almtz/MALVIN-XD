@@ -1,11 +1,11 @@
-const { malvin } = require('../malvin');
+const { almach } = require('../almach');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 const fetch = require("node-fetch");
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
 
-malvin({
+almach({
     pattern: "video",
     alias: ["ytvideo", "mp4"],
     react: "📽",
@@ -45,13 +45,13 @@ malvin({
 
         await conn.sendMessage(from, {
             image: { url: thumbnail },
-            caption: `🎬 *Video Found:*\n\n📌 *Title:* ${title}\n⏱️ *Duration:* ${timestamp}\n🔗 *Link:* ${url}\n\n> Powered by Malvin`
+            caption: `🎬 *Video Found:*\n\n📌 *Title:* ${title}\n⏱️ *Duration:* ${timestamp}\n🔗 *Link:* ${url}\n\n> Powered by Almach`
         }, { quoted: mek });
 
         await conn.sendMessage(from, {
             video: { url: downloadUrl },
             mimetype: "video/mp4",
-            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered by Malvin`
+            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered by Almach`
         }, { quoted: mek });
 
     } catch (error) {

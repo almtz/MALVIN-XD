@@ -1,9 +1,9 @@
-const { malvin ,commands } = require('../malvin');
+const { almach ,commands } = require('../almach');
 const { exec } = require('child_process');
 const config = require('../settings');
 const {sleep} = require('../lib/functions')
 // 1. Shutdown Bot
-malvin({
+almach({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
     category: "owner",
@@ -15,7 +15,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     reply("🛑 Shutting down...").then(() => process.exit());
 });
 // 2. Broadcast Message to All Groups
-malvin({
+almach({
     pattern: "broadcast",
     desc: "Broadcast a message to all groups.",
     category: "owner",
@@ -33,7 +33,7 @@ async (conn, mek, m, { from, isOwner, args, reply }) => {
     reply("📢 Message broadcasted to all groups.");
 });
 // 3. Set Profile Picture
-malvin({
+almach({
     pattern: "setpp",
     desc: "Set bot profile picture.",
     category: "owner",
@@ -53,7 +53,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 });
 
 // 6. Clear All Chats
-malvin({
+almach({
     pattern: "clearchats",
     desc: "Clear all chats from the bot.",
     category: "owner",
@@ -74,7 +74,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 });
 
 // 8. Group JIDs List
-malvin({
+almach({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
     category: "owner",
@@ -91,7 +91,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
 // delete 
 
-malvin({
+almach({
 pattern: "delete",
 react: "❌",
 alias: ["del"],

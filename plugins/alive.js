@@ -1,11 +1,11 @@
-const { malvin } = require("../malvin");
+const { almach } = require("../almach");
 const config = require("../settings");
 const moment = require("moment");
 
-const ALIVE_IMG = "https://files.catbox.moe/7hqhsw.jpg";
+const ALIVE_IMG = "https://files.catbox.moe/k0b770.jpg";
 let botStartTime = Date.now();
 
-malvin({
+almach({
     pattern: "alive",
     desc: "Check if the bot is active.",
     category: "main",
@@ -34,7 +34,7 @@ malvin({
             }).join("");
 
         const msg = `
-╭─❍ *${toTinyCap("malvin xd status")}* ❍─╮
+╭─❍ *${toTinyCap("almach xd status")}* ❍─╮
 │  
 │  🧑🏻‍💻 ʜɪ: *${pushname}*
 │  🕒 ᴛɪᴍᴇ: *${currentTime}*
@@ -45,7 +45,7 @@ malvin({
 │  ✨ ᴠᴇʀsɪᴏɴ: *${config.version}*
 ╰───────────────❍
 
-✅ *Malvin is online and operational!*
+✅ *almach is online and operational!*
 🔧 *System running smoothly!*
         `.trim();
 
@@ -58,7 +58,7 @@ malvin({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363398430045533@newsletter',
-                    newsletterName: '𝐌𝐀𝐋𝐕𝐈𝐍 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterName: 'ALMACH 𝐀𝐋𝐈𝐕𝐄',
                     serverMessageId: 143
                 }
             }

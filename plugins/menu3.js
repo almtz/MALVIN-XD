@@ -1,11 +1,11 @@
 const config = require('../settings')
-const { malvin, commands } = require('../malvin');
+const { almach, commands } = require('../almach');
 const os = require("os")
 const {runtime} = require('../lib/functions')
 const axios = require('axios')
 const fs = require('fs')
 
-malvin({
+almach({
     pattern: "menu3",
     alias: ["allmenu","fullmenu"],
     use: '.menu3',
@@ -17,9 +17,9 @@ malvin({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = ` 
-╭──⭘💈 *${config.BOT_NAME}* 💈─·⭘
+╭──⭘💈 *${config.ALM-MD}* 💈─·⭘
 ┆ ◦ 
-┆ ◦ • 👑 Owner : *${config.OWNER_NAME}*
+┆ ◦ • 👑 Owner : *${config.Almach}*
 ┆ ◦ • ⚙️ Prefix : *[${config.PREFIX}]*
 ┆ ◦ • 🌐 Platform : *Heroku*
 ┆ ◦ • 📦 Version : ${config.version}

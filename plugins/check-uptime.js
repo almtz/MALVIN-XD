@@ -1,8 +1,8 @@
-const { malvin } = require('../malvin');
+const { almach } = require('../almach');
 const { runtime } = require('../lib/functions');
 const config = require('../settings');
 
-malvin({
+almach({
     pattern: "uptime",
     alias: ["runtime", "up"],
     desc: "Show bot uptime with stylish formats",
@@ -30,7 +30,7 @@ ${config.DESCRIPTION}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363398430045533@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Malvin King',
+                    newsletterName: config.OWNER_NAME || 'Almach king',
                     serverMessageId: 143
                 }
             }

@@ -1,8 +1,8 @@
 const config = require('../settings')
-const { malvin, commands } = require('../malvin')
+const { almach, commands } = require('../almach')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 
-malvin({
+almach({
     pattern: "tagadmins",
     react: "👑",
     alias: ["gc_tagadmins"],
@@ -41,7 +41,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${admin.split('@')[0]}\n`;
         }
 
-        teks += "└──✪ MALVIN ┃ XD ✪──";
+        teks += "└──✪ ALM ┃ MD ✪──";
 
         conn.sendMessage(from, { text: teks, mentions: admins }, { quoted: mek });
 

@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { Almach } = require('../Almach');
 const axios = require('axios');
 
-malvin({
+Almach({
     pattern: "createapi",
     desc: "Create a custom API endpoint",
     alias: ["makeapi", "apimaker"],

@@ -1,5 +1,5 @@
 {
-  "name": "MALVIN-XD",
+  "name": "Almach",
   "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
   "logo": "https://files.catbox.moe/qumhu4.jpg",
   "keywords": ["MALVIN-XD"],
@@ -84,7 +84,7 @@
      }, 
     
     "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
+      "description": "Almach.",
       "required": false,
       "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
 }, 
@@ -92,7 +92,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "26371475XXXX"
+      "value": "255683174517"
 
     }, 
 

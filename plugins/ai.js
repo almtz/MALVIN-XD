@@ -1,20 +1,20 @@
 
 
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { Almach } = require("../malvin");
 
-malvin({
-    pattern: "malvin",
-    alias: "malvin",
+Almach({
+    pattern: "Almach",
+    alias: "Almach",
     desc: "Interact with ChatGPT using the XD Api.",
     category: "ai",
     react: "🤖",
-    use: ".malvin <your query>",
+    use: ".Almach <your query>",
     filename: __filename,
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {
         // Vérification de l'entrée utilisateur
-        if (!q) return reply("⚠️ Please provide a query for Malvin Ai.\n\nExample:\n.malvin What is AI?");
+        if (!q) return reply("⚠️ Please provide a query for Almach Ai.\n\nExample:\n.Almach What is AI?");
 
         // Utilisation de `${text}` dans le endpoint API
         const text = q;  // Texte de la requête de l'utilisateur
@@ -51,7 +51,7 @@ malvin({
         const ALIVE_IMG = 'https://files.catbox.moe/79tf9z.jpg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
-        const formattedInfo = `🤖 *Malvin's Response:*\n\n${gptResponse}`;
+        const formattedInfo = `🤖 *Almach's Response:*\n\n${gptResponse}`;
 
         // Envoyer le message avec image et légende
         await conn.sendMessage(from, {
@@ -63,7 +63,7 @@ malvin({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363398430045533@newsletter',
-                    newsletterName: '*MALVIN 𝐀𝐈*',
+                    newsletterName: '*ALMACH 𝐀𝐈*',
                     serverMessageId: 143
                 }
             }

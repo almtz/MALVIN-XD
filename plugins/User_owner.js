@@ -1,17 +1,17 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https//github.com/kingmalvn/MALVIN-XMD
-Support      : wa.me/263714757857
+Project Name : ALM-MD
+Creator      : Almach king ( Mr lord Almach )
+Repo         : https//github.com/almtz/MALVIN-XD
+Support      : wa.me/255683174517
 */
 
 
 
 
-const { malvin } = require('../malvin');
+const { Almach } = require('../Almach');
 const config = require('../settings');
 
-malvin({
+Almach({
     pattern: "user",
     react: "✅", 
     desc: "Get owner number",
@@ -39,7 +39,7 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/v1rf80.jpg' }, // Image URL from your request
+            image: { url: 'https://files.catbox.moe/k0b770.jpg' }, // Image URL from your request
             caption: `
 ╭┈┈┈───────┈┈┈┈┈┈┈┈┈
 ┊• *Here are the owner details*

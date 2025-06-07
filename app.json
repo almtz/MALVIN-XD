@@ -1,8 +1,8 @@
 {
-  "name": "Almach",
-  "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+  "name": "ALM-MD",
+  "description": "Javascript WhatsApp bot made by Almach tech",
   "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN-XD"],
+  "keywords": ["ALM-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -79,14 +79,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY MALVIN-XD ✨*"
+      "value": "*SEEN YOUR STATUS BY ALM-MD ✨*"
    
      }, 
     
     "OWNER_NAME": {
-      "description": "Almach.",
+      "description": "type your owner name.",
       "required": false,
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+      "value": "Almach"
 }, 
 
     "OWNER_NUMBER": {
@@ -99,7 +99,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "ᴍᴀʟᴠɪɴ-xᴅ"
+      "value": "ALM-MD"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/juxfce.jpg"
+      "value": "https://files.catbox.moe/k0b770.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+      "value": "*© ALM-MD CREATED BY ALMACH"
     },
 
       "DELETE_LINKS": {

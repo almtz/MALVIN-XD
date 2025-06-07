@@ -1,5 +1,5 @@
 {
-  "bot-name": "MALVIN-XD",
+  "bot-name": "ALM-XD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
   "logo": "https://files.catbox.moe/juxfce.jpg",
   "keywords": ["bot"],
@@ -13,9 +13,9 @@
       "value": ""
     },
       "BOT_NAME": {
-        "description": "write here your bot name.",
+        "description": "ALM-MD",
         "required": true,
-        "value": "ᴍᴀʟᴠɪɴ-xᴅ"      
+        "value": "public"      
     },  
     "MODE": {
       "description": "Set private/public/inbox/groups",
@@ -30,14 +30,14 @@
     },
     
     "OWNER_NAME": {
-      "description": "Put Owner Name Here",
+      "description": "Almach",
       "required": true,
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+      "value": "public"
     },
     "OWNER_NUMBER": {
-      "description": "Put only one Owner Number Here",
+      "description": "255683174517",
       "required": true,
-      "value": "263780166288"
+      "value": "public"
     },
     
     "PRESENCE": {

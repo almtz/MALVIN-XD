@@ -34,7 +34,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "true",
+       WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -118,7 +118,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Almach",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.5",

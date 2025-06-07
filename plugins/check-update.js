@@ -2,10 +2,10 @@ const axios = require('axios');
 const os = require('os');
 const fs = require('fs');
 const path = require('path');
-const { malvin, commands } = require('../malvin');
+const { almach, commands } = require('../almach');
 const { runtime } = require('../lib/functions');
 
-malvin({
+almach({
   pattern: 'version',
   alias: ["changelog", "cupdate", "checkupdate"],
   react: '🚀',
@@ -27,7 +27,7 @@ malvin({
     }
 
     // Fetch latest version data from GitHub
-    const rawVersionUrl = 'https://raw.githubusercontent.com/XdKing2/MALVIN-XD/main/data/version.json';
+    const rawVersionUrl = 'https://raw.githubusercontent.com/almtz/ALM-MD/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'No changelog available.';
     try {
@@ -56,9 +56,9 @@ malvin({
     const githubRepo = 'https://github.com/XdKing2/MALVIN-XD';
 
     // Check update status
-    let updateMessage = `✅ Your MALVIN-XD bot is up-to-date!`;
+    let updateMessage = `✅ Your ALM-MD bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your MALVIN-XD bot is outdated!
+      updateMessage = `🚀 Your ALM-MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,10 +66,10 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* MALVIN-XD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* ALM-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [Malvin King](https://github.com/XdKing2)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [Almach king](https://github.com/almtz)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
@@ -81,7 +81,7 @@ Use *.update* to update.`;
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398430045533@newsletter',
-          newsletterName: 'Malvin King',
+          newsletterName: 'Almach',
           serverMessageId: 143
         }
       }

@@ -1,7 +1,7 @@
 const axios = require("axios");
-const { almach } = require("../almach");
+const { malvin } = require("../malvin");
 
-almach({
+malvin({
   pattern: "srepo",
   desc: "Fetch information about a GitHub repository.",
   category: "other",

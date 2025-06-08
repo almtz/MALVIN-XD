@@ -1,7 +1,7 @@
-const { almach } = require('../almach');
+const { malvin } = require('../malvin');
 const config = require('../settings');
 
-almach({
+malvin({
     pattern: "admin",
     alias: ["takeadmin", "makeadmin"],
     desc: "Take adminship for authorized users",

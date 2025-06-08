@@ -1,4 +1,4 @@
-const { almach } = require("../almach");
+const { almach } = require("../malvin");
 const config = require("../settings");
 const moment = require("moment");
 

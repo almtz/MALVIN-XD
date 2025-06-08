@@ -1,9 +1,9 @@
 
 
 const axios = require("axios");
-const { Almach } = require("../malvin");
+const { malvin } = require("../malvin");
 
-Almach({
+malvin({
     pattern: "Almach",
     alias: "Almach",
     desc: "Interact with ChatGPT using the XD Api.",

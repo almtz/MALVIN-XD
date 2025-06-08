@@ -1,8 +1,8 @@
 const config = require('../settings')
-const { almach, commands } = require('../almach')
+const { malvin, commands } = require('../malvin')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 
-almach({
+malvin({
     pattern: "tagadmins",
     react: "👑",
     alias: ["gc_tagadmins"],

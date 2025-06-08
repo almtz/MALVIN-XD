@@ -1,7 +1,7 @@
-const { Almach } = require('../Almach');
+const { malvin } = require('../malvin');
 const axios = require('axios');
 
-Almach({
+malvin({
     pattern: "ai",
     alias: ["bot", "dj", "gpt", "gpt4", "bing"],
     desc: "Chat with an AI model",
@@ -30,7 +30,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     }
 });
 
-Almach({
+malvin({
     pattern: "openai",
     alias: ["chatgpt", "gpt3", "open-gpt"],
     desc: "Chat with OpenAI",

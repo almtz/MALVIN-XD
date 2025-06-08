@@ -1,6 +1,6 @@
 /*
-Project Name : ALM-MD
-Creator      : Almach king ( Mr lord Almach )
+Project Name : MALVIN-XD
+Creator      : Malvin king ( Mr lord Malvin )
 Repo         : https//github.com/almtz/ALM-MD
 Support      : wa.me/255683174517
 */

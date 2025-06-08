@@ -1,11 +1,11 @@
 const config = require('../settings')
-const { almach, commands } = require('../almach');
+const { malvin, commands } = require('../malvin');
 const os = require("os")
 const {runtime} = require('../lib/functions')
 const axios = require('axios')
 const fs = require('fs')
 
-almach({
+malvin({
     pattern: "menu3",
     alias: ["allmenu","fullmenu"],
     use: '.menu3',

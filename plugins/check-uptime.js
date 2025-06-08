@@ -1,8 +1,8 @@
-const { almach } = require('../almach');
+const { malvin } = require('../malvin');
 const { runtime } = require('../lib/functions');
 const config = require('../settings');
 
-almach({
+malvin({
     pattern: "uptime",
     alias: ["runtime", "up"],
     desc: "Show bot uptime with stylish formats",

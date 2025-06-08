@@ -1,11 +1,11 @@
-const { almach } = require('../almach');
+const { malvin } = require('../malvin');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 const fetch = require("node-fetch");
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
 
-almach({
+malvin({
     pattern: "video",
     alias: ["ytvideo", "mp4"],
     react: "📽",

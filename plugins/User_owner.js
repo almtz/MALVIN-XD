@@ -1,17 +1,17 @@
 /*
 Project Name : ALM-MD
 Creator      : Almach king ( Mr lord Almach )
-Repo         : https//github.com/almtz/MALVIN-XD
+Repo         : https//github.com/almtz/ALM-MD
 Support      : wa.me/255683174517
 */
 
 
 
 
-const { Almach } = require('../Almach');
+const { malvin } = require('../malvin');
 const config = require('../settings');
 
-Almach({
+malvin({
     pattern: "user",
     react: "✅", 
     desc: "Get owner number",

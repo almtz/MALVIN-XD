@@ -4,12 +4,12 @@ const axios = require("axios");
 const { malvin } = require("../malvin");
 
 malvin({
-    pattern: "Almach",
+    pattern: "malvin",
     alias: "Almach",
     desc: "Interact with ChatGPT using the XD Api.",
     category: "ai",
     react: "🤖",
-    use: ".Almach <your query>",
+    use: ".malvin <your query>",
     filename: __filename,
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {

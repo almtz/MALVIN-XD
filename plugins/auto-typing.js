@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const config = require('../settings')
-const {almach , commands} = require('../almach')
+const {malvin , commands} = require('../malvin')
 
 
 // Composing (Auto Typing)
-almach({
+malvin({
     on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {

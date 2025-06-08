@@ -2,10 +2,10 @@ const axios = require('axios');
 const os = require('os');
 const fs = require('fs');
 const path = require('path');
-const { almach, commands } = require('../almach');
+const { malvin, commands } = require('../malvin');
 const { runtime } = require('../lib/functions');
 
-almach({
+malvin({
   pattern: 'version',
   alias: ["changelog", "cupdate", "checkupdate"],
   react: '🚀',

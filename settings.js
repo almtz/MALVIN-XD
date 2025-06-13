@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~kvlGnQ5a#MiBsxYXw1vHbNE1WaLpaClUaCewQhCaoL5-xN3hYvbQ",
+SESSION_ID: process.env.SESSION_ID || "malvin~Ui0n3TaY#XDpeQywWIRudrxCsx5JL-_iqA6u5pQ1Dch3i6TvC7qQ",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+BOT_NAME: process.env.BOT_NAME || "ALM-MD",
 // add bot name here for menu
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
@@ -30,7 +30,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
+        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY ALM-MD 😆*",
 // set the auto reply massage on status reply  
 
 
@@ -103,7 +103,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Almach",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
@@ -118,7 +118,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Almach",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.5",
@@ -137,7 +137,7 @@ START_MSG: process.env.START_MSG || `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ᴍᴀʟᴠɪɴ 
 > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ &ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
     https://github.com/XdKing2/MALVIN-XD
 
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇹🇿`
 };
 
 

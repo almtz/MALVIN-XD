@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Almach",
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "false",
+              AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
